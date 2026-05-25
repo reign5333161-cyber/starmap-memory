@@ -1,0 +1,18 @@
+# Database (contains personal memory data)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Pending review data
+pending_review.json
+
+# Config (may contain API keys)
+config.yaml
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
